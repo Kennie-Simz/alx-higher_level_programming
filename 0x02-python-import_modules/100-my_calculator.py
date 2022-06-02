@@ -7,7 +7,7 @@ if __name__ == "__main__":
         sys.exit(1)
     a = int(sys.argv[1])
     b = int(sys.argv[3])
-    operaotr = sys.argv[2]
+    operator = sys.argv[2]
     if operator == '+':
         result = add(a, b)
     elif operator == '-':
