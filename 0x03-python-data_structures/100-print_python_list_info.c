@@ -14,7 +14,7 @@ void print_item_info(PyObject *prmItem, int prmItemIndex)
 	char *itemName;
 	itemName = (char *)Py_TYPE(prmItem)->tp_name;
 
-	printf("Element %d: %s\n, prmItemIndex, itemName");
+	printf("Element %d: %s\n", prmItemIndex, itemName);
 }
 
 /**
