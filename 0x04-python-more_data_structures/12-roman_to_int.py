@@ -26,7 +26,7 @@ def roman_to_int(roman_string):
             currentValue = roman_value(character)
             nextValue = next_value(roman_string, index)
             if nextValue is None or currentValue >= nextValue:
-                result += currentvalue
+                result += currentValue
             else:
                 result += (nextValue - currentValue)
                 next(enum)
