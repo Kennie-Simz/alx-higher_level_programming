@@ -25,7 +25,7 @@ void print_item_info(PyObject *prmItem, int prmItemIndex)
  **/
 void print_python_list_info(PyObject *p)
 {
-	int itemIndex, bjAllocatedNb = 0;
+	int itemIndex, objAllocatedNb = 0;
 	PyObject *item;
 	Py_ssize_t objListSize = 0;
 
