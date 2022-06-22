@@ -100,7 +100,7 @@ class Square:
         _sq_str = ""
         for x in range(self.position[1]):
             _sq_str += "\n"
-        for i in range(self.position[0]):
+        for i in range(self.size):
             for y in range(self.position[0]):
                 _sq_str += " "
             for a in range(self.size):
