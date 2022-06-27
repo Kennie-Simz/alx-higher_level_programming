@@ -54,5 +54,5 @@ if __name__ == "__main__":
         print("N must be at least 4")
         exit(1)
 
-final = Queen()
-final.soln(0, N, [None for i in range(N)])
+    final = Queen()
+    final.soln(0, N, [None for i in range(N)])
