@@ -10,6 +10,7 @@ class Rectangle:
     - width
     - height
     """
+
     def __init__(self, width=0, height=0):
         """
         Creates width and height attributes
@@ -96,4 +97,4 @@ class Rectangle:
         """
         Prints message on delete instance
         """
-        print("Bye Rectangle...")
+        print("Bye rectangle...")
