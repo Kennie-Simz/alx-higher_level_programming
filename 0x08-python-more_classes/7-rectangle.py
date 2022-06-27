@@ -84,7 +84,7 @@ class Rectangle:
         """
         if self.width == 0 or self.height == 0:
             return ("")
-        width = "#" * self.width
+        width = ("{}".format(self.print_symbol)) * self.width
         rectangle = width
         for x in range(self.height - 1):
             rectangle += "\n" + width
