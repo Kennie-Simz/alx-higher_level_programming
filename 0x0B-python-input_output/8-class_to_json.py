@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 file has function that returns the dictionary description
 with simple data structure for json serialization of object
